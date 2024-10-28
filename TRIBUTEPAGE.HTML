@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height:100vw ;
+    width: 100vw;
+    background-color: rgb(225, 218, 149); 
+}
+#heading{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: head 1.5s linear 1s infinite alternate;
+    transform: scale(0.5);
+}
+@keyframes head {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+#image{
+    height:30% ;
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+   
+}
+#container{
+    height:100% ;
+    width:60% ;
+    /* box-shadow:0px 0px 30px black ; */
+   
+}
+img{
+    height:100% ;
+    width: 100%;
+    object-fit: cover;
+    border: 0.5px solid black;
+    border-radius:20px;
+    box-shadow:0px 0px 30px black ;
+}
+#para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+#box{
+    height:60% ;
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+#contentbox{
+    height:100% ;
+    width:70% ;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 30px;  
+    box-shadow: 0px 0px 30px black;
+}
+#list{
+    margin-top: 30px;
+    height:6%;
+    width:100%;
+    font-size: 25px;
+    overflow: auto;
+}
+#subheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#note{
+    height:5% ;
+    width:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+    </style>
+</head>
+<body>
+    <div id="heading"><h1>Mahatma Gandhi</h1></div>
+    <div id="image">
+        <div id="container"><img src="https://i0.wp.com/short-biography.com/wp-content/uploads/mahatma-gandhi/Mahatma-Gandhi.jpg?fit=1121%2C1121&ssl=1" alt=""></div>
+    </div>
+    <div id="para">
+        <p> A Great freedom fighter .</p>
+    </div>
+    <div id="box">
+        <div id="contentbox">
+            <div id="subheading"><h2 id="subhead">About the Legend</h2>  </div>
+            <div id="list"><p><b> *Early Life</b>: Born on 2 October,1869 at Porabandar in Gujarat.</p></div>
+            <div id="list"><p><b> *Social Education</b>:He believe that society should be educated to understand how to fight without violence.</p></div>
+            <div id="list"><p><b> *Nationalism</b>:He inspired many people to join the freedom struggle and work for nationalism.He believed that the best form of worship was service to the people.</p></div>
+            <div id="list"><p><b> *Author</b>:'An Autobiography Mahatma Gandhi',,.</p></div>
+            <div id="list"><p><b> *Introducing Indian philosophies to the west</b>:He introduced Indian philosphies of Vendanta and Yoga to the West.</p></div>
+            <div id="list"><p><b> *Non violence freedom fighter</b>:He was a freedom fighter who does not use violence.</p></div>
+            <div id="list"><p><b> *Death</b>: He passed died on 30 January,1948 .</p></div>
+            
+        </div>
+        
+    </div> 
+    <div id="note">
+        <p>For more information cheak out <b>Swami Vivekanand</b> on wikipedia. [Developed by <a href="">@Rohit Sharma]</a></p>
+    </div>
+</body>
+</html>
